@@ -1,0 +1,39 @@
+.userInfoPage {
+	padding: 30rpx;
+	.userInfo {
+		width: 100%;
+		background: #FFFFFF;
+		border-radius: 16rpx;
+		padding: 0 30rpx;
+		.infoItem {
+			height: 109rpx;
+			border-bottom: 1rpx solid #F4F5F7;
+			@include  flex-between();
+			&:last-of-type {
+				border-bottom: none;
+			}
+		}
+		.txt {
+			color: #000;
+			font-size: 32rpx;
+		}
+		.infoRight {
+			@include flex-center();
+			justify-content: flex-end;
+			color: #BFBFBF;
+			font-size: 32rpx;
+		}
+		.avatar {
+			width: 62rpx;
+			height: 62rpx;
+			border-radius: 50%;
+			overflow: hidden;
+			background: #999;
+		}
+	}
+	image {
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+}

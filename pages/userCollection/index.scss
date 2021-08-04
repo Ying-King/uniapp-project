@@ -1,0 +1,53 @@
+.userCollection {
+	min-height: 100%;
+	background: #fff;
+	.collectionList {
+		padding: 10rpx 34rpx;
+	}
+	.collectionItem {
+		padding: 30rpx 0;
+		@include  flex-between();
+		border-bottom: 1rpx solid #F4F5F7;
+		.collectionImg {
+			flex: none;
+			margin-right: 20rpx;
+			display: block;
+			width: 200rpx;
+			height: 160rpx;
+			border-radius: 12rpx;
+			background: #999;
+		}
+		.info {
+			position: relative;
+			flex: 1;
+			padding: 14rpx 56rpx 14rpx 0;
+			overflow: hidden;
+			@include flex-between(column);
+			align-items: flex-start;
+			.title {
+				font-size: 26rpx;
+				color: $title-color;
+				@include ellipsis-1();
+			}
+			.desc {
+				margin-top: 20rpx;
+				font-size: 26rpx;
+				line-height: 38rpx;
+				color: $desc-color;
+				@include ellipsis-more();
+			}
+			.icon {
+				position: absolute;
+				right: 0;
+				bottom: 14rpx;
+				width: 38rpx;
+				height: 38rpx;
+				image {
+					display: block;
+					width: 100%;
+					height: 100%;
+				}
+			}
+		}
+	}
+}

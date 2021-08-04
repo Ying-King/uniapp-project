@@ -9,6 +9,6 @@ module.exports = {
     apiCMSDomain:'https://cms.xsgz.horsevision.cn',// CMS 
     apiCMSLoginDomain:'https://ac.xsgz.horsevision.cn',  // 高见授权
 	
-    imgDomain: 'https://horsevision.oss-cn-hangzhou.aliyuncs.com/wechat/xinshiTown/images', //服务器上图片的前缀
+    imgDomain: 'https://view.horsevision.cn/h5/wechat/kpr_car/images', //服务器上图片的前缀
     localImg: '/image', //本地的图片的前缀
 }

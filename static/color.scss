@@ -1,8 +1,8 @@
 
 /******************** 公共 *******************/
-
 $main-color: #FF7A51;
-$content-color: #606266;
+$desc-color: #9F9FA0;
+$title-color: #272727;
 $tips-color: #909399;
 $light-color: #c0c4cc;
 $border-color: #e4e7ed;
@@ -12,7 +12,6 @@ $bg-color: #F5F5F5;
 .fontColor {
 	color:#FF7A51;
 }
-
 .themeBgColor {
 	background: #FF7A51;
 }
@@ -27,7 +26,7 @@ $bg-color: #F5F5F5;
 	color: #FF7A51 !important;
 }
 .pageBg {
-	background: #f4f6f8;
+	background: #F4F5F7;
 	width: 100%;
 	min-height: 100%;
 }

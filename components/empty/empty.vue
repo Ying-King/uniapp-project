@@ -61,6 +61,7 @@ export default {
 </script>
 <style lang="scss">
 .emptyContainer {
+	margin-top: 100rpx;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

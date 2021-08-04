@@ -73,33 +73,9 @@ export const authorizationLogo =  `${imgDomain}/otherImg/authorizationLogo.png`;
 // 官方头像
 export const commonAvatar =  `${imgDomain}/otherImg/avatar.png`;
 
-// 预约登记
-export const appointTitle =  `${imgDomain}/otherImg/appointTitle.png`;
-export const dateIcon =  `${imgDomain}/otherImg/dateIcon.png`;
-
-// 项目介绍
-export const infoIcon1 =  `${imgDomain}/otherImg/infoIcon1.png`;
-export const infoIcon2 =  `${imgDomain}/otherImg/infoIcon2.png`;
-export const infoIcon3 =  `${imgDomain}/otherImg/infoIcon3.png`;
-export const infoIcon4 =  `${imgDomain}/otherImg/infoIcon4.png`;
-export const infoIcon5 =  `${imgDomain}/otherImg/infoIcon5.png`;
-export const infoIcon6 =  `${imgDomain}/otherImg/infoIcon6.png`;
-
 // 收藏状态
-export const collectedIcon =  `${imgDomain}/otherImg/collected.png`;
-export const uncollectedIcon =  `${imgDomain}/otherImg/uncollected.png`;
-
-export const locationIcon2 =  `${imgDomain}/otherImg/locationIcon2.png`; // 导航
-
-// 酒店
-export const hotelLocate =  `${imgDomain}/otherImg/hotelLocate.png`; // 导航
-export const telIcon =  `${imgDomain}/otherImg/telIcon.png`; // 手机号icon
-export const locateIcon =  `${imgDomain}/otherImg/locateIcon.png`; // 地址icon
-
-// 公告
-export const newsLocate =  `${imgDomain}/otherImg/newsLocate.png`; // 导航
-
-export const addressIcon2 = `${imgDomain}/otherImg/addressIcon.png`;  // 地址
+export const collectedIcon =  `${imgDomain}/otherImg/collectedIcon.png`;
+export const uncollectedIcon =  `${imgDomain}/otherImg/collectIcon.png`;
 
 export const shareImg = `${imgDomain}/otherImg/shareImg.jpeg`;  // 分享图片
 
