@@ -1,0 +1,42 @@
+var filters = {
+    formatDecimal: function (num, decimal) {
+        num = num.toString()
+        var index = num.indexOf('.')
+        if (index !== -1) {
+            num = num.substring(0, decimal + index + 1)
+        } else {
+            num = num.substring(0)
+        }
+        return parseFloat(num).toFixed(decimal)
+    },
+    ymd: function (timestamp) {
+        var date = getDate(timestamp * 1000); //时间戳为10位需*1000
+        var Y = date.getFullYear() + '-';
+        var M = (date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1) + '-';
+        var D = date.getDate() + ' ';
+        var h = date.getHours() + ':';
+        var m = date.getMinutes() + ':';
+        var s = date.getSeconds();
+        return Y + M + D + h + m + s;
+    },
+    convertDate: function (date) {
+        var newDate = date.substring(0,10)
+        return newDate;
+    },
+    picFilter: function (val) {
+        if (val) {
+            if (val.indexOf("http") > -1) {
+                return val;
+            } else {
+                return 'https://cms.raysfly.com'+val;
+            }
+        }
+    }
+
+}
+module.exports = {
+    formatDecimal: filters.formatDecimal,
+    convertDate: filters.convertDate,
+    ymd: filters.ymd,
+    picFilter:filters.picFilter
+}

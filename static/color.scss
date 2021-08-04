@@ -1,0 +1,33 @@
+
+/******************** 公共 *******************/
+
+$main-color: #FF7A51;
+$content-color: #606266;
+$tips-color: #909399;
+$light-color: #c0c4cc;
+$border-color: #e4e7ed;
+$bg-color: #F5F5F5;
+
+/******************** 字体颜色*******************/
+.fontColor {
+	color:#FF7A51;
+}
+
+.themeBgColor {
+	background: #FF7A51;
+}
+.themeBorder {
+	border: 1px solid #FF7A51;
+}
+.btnBg {
+	background: #FF7A51;
+}
+.activeColor {
+	background: #FFF3EF !important;
+	color: #FF7A51 !important;
+}
+.pageBg {
+	background: #f4f6f8;
+	width: 100%;
+	min-height: 100%;
+}

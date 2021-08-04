@@ -1,0 +1,22 @@
+function showPoint(str, value) {
+    
+  var p_arr = []; //组成新的数组
+  var a_arr = str.split(' '); // 字符串转化为数组
+
+  for(var i = 0 ; i < a_arr.length; i++){
+        if(a_arr[i] !== ""){
+            p_arr.push(a_arr[i])
+        }
+  }
+
+  var c2 = Date.parse('2020/04/21'+' '+ value); // 当前时间
+  var c1 = Date.parse('2020/04/21'+' '+ p_arr[p_arr.length - 1]); //'2008-08-08'
+  // 3600000
+  if (c2 + 3600000  > c1 ) {
+    return false;
+  } else {
+    return true;
+  }
+}
+
+module.exports.showPoint = showPoint;

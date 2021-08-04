@@ -1,0 +1,2 @@
+export const SET_JOIN_ORDER_ID = 'SET_JOIN_ORDER_ID'
+export const SET_ORDER_TYPE = 'SET_ORDER_TYPE'

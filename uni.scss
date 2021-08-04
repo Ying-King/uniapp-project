@@ -1,0 +1,143 @@
+@import 'uview-ui/theme.scss';
+@import '@/static/reset-uview.scss';
+@import '@/static/color.scss';
+
+uni-page-body,page {
+	width: 100%;
+	height: 100%;
+}
+view {
+	box-sizing: border-box;
+}
+.hasTop {
+	padding-top: 76rpx;
+}
+/* flex布局 */
+.flex {
+    display: flex;
+    align-items: center;
+}
+.flexCenter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flexSpaceCenter {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flexColumnCenter {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.flexSpaceCenterWrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flexStartCenter {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.flexSpaceStart {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+/* 超出隐藏 */
+.ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.ellipsis2 {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+
+.ellipsis3 {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+}
+/* 右箭头 */
+.rightIcon {
+	width: 10rpx;
+	height: 10rpx;
+	border-top: 2rpx solid #a9a9a9;
+	border-right: 2rpx solid #a9a9a9;
+	transform: rotate(45deg);
+	margin-left: 10rpx;
+}
+
+// flex-center
+@mixin flex-center($direction: row) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}
+
+// flex-between
+@mixin flex-between($direction: row) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: $direction;
+}
+
+// flex-start
+@mixin flex-start($direction: row) {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: $direction;
+}
+
+// flex-end
+@mixin flex-end($direction: row) {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: $direction;
+}
+
+/* 超出隐藏 */
+@mixin ellipsis-1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin ellipsis-more($num: 2) {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $num;
+}
+
+// 公共动画
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+

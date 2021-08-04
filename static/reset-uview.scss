@@ -1,0 +1,66 @@
+// NumberBox 步进器
+// 商城详情
+.shopDetailPage{
+	.u-numberbox {
+		.u-number-input {
+			background-color: #fff !important;
+			color: #1a1a1a !important;
+			width: 30px !important;
+			font-size: 30rpx !important;
+		}
+		.u-icon-plus {
+			width: 38rpx !important;
+			height: 38rpx !important;
+			background: #ff7a51 !important;
+			border-radius: 50% !important;
+			color: #fff !important;
+		}
+	
+		.u-icon-minus {
+			width: 38rpx !important;
+			height: 38rpx !important;
+			background: #fff !important;
+			border: 1px solid #d7d8da !important;
+			border-radius: 50% !important;
+			color: #d7d8da !important;
+		}
+		.u-icon-plus.u-icon-disabled {
+			background: #d7d8da !important;
+		}
+	}
+}
+
+// 购物车
+.shopCarPage {
+	.u-swipe-action {
+		border-radius: 10rpx;
+		margin-bottom: 30rpx;
+	}
+	.u-numberbox {
+		.u-number-input {
+			background-color: #fff !important;
+			color: #1a1a1a !important;
+			width: 30px !important;
+			font-size: 30rpx !important;
+		}
+		.u-icon-plus {
+			width: 38rpx !important;
+			height: 38rpx !important;
+			background-color: #d7d8da !important;
+			border-radius: 50% !important;
+			color: #fff !important;
+		}
+	
+		.u-icon-minus {
+			width: 38rpx !important;
+			height: 38rpx !important;
+			background: #fff !important;
+			border: 1px solid #d7d8da !important;
+			border-radius: 50% !important;
+			color: #d7d8da !important;
+		}
+		.u-icon-plus.u-icon-disabled {
+			background: #d7d8da !important;
+		}
+	}
+}

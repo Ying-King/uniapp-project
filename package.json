@@ -1,0 +1,21 @@
+{
+  "name": "ancient-town",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "luch-request": "^3.0.6",
+    "numeral": "^2.0.6",
+    "uview-ui": "^1.8.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.work:hs_lixuying/ancient-town.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

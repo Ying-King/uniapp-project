@@ -1,0 +1,33 @@
+.subTabList.show {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0 50rpx;
+	margin: 25rpx 0;
+	@include flex-start();
+	justify-content: space-around;
+	background: #f4f6f8;
+	.subTabItem {
+		width: 153rpx;
+		height: 60rpx;
+		line-height: 60rpx;
+		font-size: 28rpx;
+		font-weight: 400;
+		color: #B2B2B2;
+		border-radius: 30rpx;
+		background: #FFF3EF;
+		text-align: center;
+		&.active {
+			background: $main-color;
+			color: #fff;
+			font-weight: 500;
+		}
+	}
+}
+
+.baseTab {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+}
